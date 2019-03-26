@@ -1,0 +1,37 @@
+Se WebDriver
+Eclipse
+TestNG
+Properties file
+Maven
+Jenkins
+XSLT
+Hybrid Frmework
+POM
+Page factory
+Apache pOI
+Github
+-----------------------------
+In Pom.xml..add dependencies 
+For maven ..google maven dependency ..go to mavenrepository >
+go to latest dependency version
+
+for apache POI we need to add couple of dependencies
+--------------------------------
+src -main java - utilies,page classes,libraries
+package>com.freecrm.qa.pages(so here freecrm is the appln name)
+src-test java-all test cases()
+
+pacage>com.freecrm.qa.testcases(freecrm is appln name)
+-----------------------
+dependencies to be added-
+Se
+testng
+apache poi
+xslt
+
+-------------------------------------
+you need to check how many pages are there in your website and how many pages 
+you will automate
+Please dont create test data inside the properties file.It is only for global variables
+create classes for each and every page in your application
+
